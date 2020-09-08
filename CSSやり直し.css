@@ -1,0 +1,337 @@
+﻿body{
+width:100%;
+margin:0;
+font-family:"メイリオ","Meiryo","sans-serif;"
+}
+
+.test{
+
+height:200px;
+width:200px;
+border:solid 3px red;
+float:left;
+}
+.test2{
+height:200px;
+width:200px;
+border:solid 8px blue;
+float:left;
+}
+
+.test3{
+height:200px;
+width:200px;
+border:solid 8px black;
+float:left;
+
+}
+
+.sample4{
+border:solid 3px green;
+height:300px;
+}
+
+.clearfix::after{
+  content= '';
+  display: block;
+  clear: both;
+}
+
+.sample5{
+border:solid 8px orange;
+height:700px;
+
+}
+
+
+
+header{
+background-color:black;
+height:75px;
+width:100%;
+position:fixed;
+top:0;
+}
+
+.header-logo img{
+width:190px;
+height:75px;
+float:left;
+cursor:pointer;
+}
+
+
+
+.header-list{
+float:left;
+}
+
+.header-list li{
+list-style:none;
+float:left;
+font-size:15px;
+padding:14px 26px;
+margin-left:17px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+.header-right{
+float:right;
+margin-right:40px;
+margin-top:17px;
+border-radius:5px;
+}
+
+.login{
+color:white;
+font-size:15px;
+font-weight:bold;
+background-color:#3399CC;
+cursor:pointer;
+padding:8px 20px;
+display:block;
+
+}
+
+.login:hover{
+background-color:#3399FF;
+}
+
+.top-wrapper{
+background-color:black;
+margin-top:75px;
+width:100%;
+overflow:hidden;
+}
+
+.background-video{
+height:498px;
+width:1520px;
+margin:0 auto;
+background-color:black;
+text-align:center;
+
+}
+
+.background-video video{
+height:498px;
+}
+
+.container{
+width:1520px;
+margin:0 auto;
+padding:0 15px;
+}
+
+.login-modal-wrapper{
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+z-index:100;
+background-color:rgba(0,0,0,0.6);
+display:none;
+}
+
+.finish-modal{
+height:55px;
+width:55px;
+position:absolute;
+top:13%;
+left:64%;
+cursor:pointer;
+}
+
+.modal{
+position:absolute;
+top:23%;
+left:34%;
+background-color:black;
+border-radius:10px;
+width:450px;
+height:auto;
+border:solid 2px white;
+padding-bottom:27px;
+}
+
+.login-form{
+text-align:center;
+}
+
+.login-form h2{
+color:white;
+}
+
+.email{
+width:300px;
+margin-bottom:15px;
+padding:12px 12px;
+border-radius:5px;
+font-size:14px;
+}
+
+.password{
+width:300px;
+margin-bottom:15px;
+padding:12px 12px;
+border-radius:5px;
+font-size:14px;
+}
+
+.submit{
+width:310px;
+margin:7px;
+padding:7px;
+font-size:22px;
+font-weight:bold;
+background-color:rgba(0,0,0,0);
+color:#33CCFF;
+cursor:pointer;
+border-radius:27px;
+border:solid 3px #33CCFF;
+}
+
+.submit:hover{
+background-color:#3366CC;
+}
+
+.video-modal-wrapper{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+z-index:100;
+background-color:rgba(0,0,0,0.4);
+color:white;
+text-align:center;
+display:none;
+}
+
+.youtube-video-modal{
+margin:40px auto;
+width:800px;
+height:540px;
+padding:10px 150px 0 150px;
+background-image:url("modal-haikei.png");
+border:solid 2px white;
+border-radius:8px;
+letter-spacing:3px;
+
+}
+
+.video-header h2{
+background-image:url("renga.png");
+width:500px;
+margin:20px auto;
+}
+
+.youtube-video-modal p{
+font-size:18px;
+
+line-height:22px;
+}
+
+.menber-wrapper{
+width:100%;
+margin:0 auto;
+
+padding:100px 0px 100px 0px;
+background-color:black;
+overflow:hidden;
+text-align:center;
+}
+
+.heading h1{
+color:white;
+}
+
+.heading p{
+color:white;
+}
+
+.heading h2{
+font-weight:normal;
+color:white;
+}
+
+.container h2{
+color:white;
+}
+
+.p2{
+color:yellow;
+}
+
+.macine-wrapper{
+width:100%;
+padding:100px 0;
+text-align:center;
+overflow:hidden;
+background-image:url("mokume.jpg");
+background-size:cover;
+}
+
+.macine-wrapper h2,p{
+color:black;
+font-weight:bold;
+}
+
+.macine{
+width:380px;
+background-color:gray;
+padding:30px 0;
+margin:0 auto;
+border-radius:15px;
+box-shadow:10px 10px 8px 10px black;
+border:solid 10px orange;
+}
+
+.macine-wrapper input[type="text"]{
+width:300px;
+height:60px;
+font-size:50px;
+font-weight:bold;
+border:solid 3px black;
+}
+
+
+input[type="button"]{
+width:70px;
+height:70px;
+font-size:30px;
+font-weight:bold;
+box-shadow:0 10px black;
+cursor:pointer;
+margin-top:10px;
+}
+
+input[type="button"]:active{
+position:relative;
+top:10;
+box-shadow:none;
+}
+
+.heading h1{
+animation:name1 15s linear 1s infinite normal;
+}
+
+@keyframes name1{
+
+0%{
+color:#219ddd;
+}
+25%{
+color:yellow}
+50%{
+color:#cc6666;
+}
+75%{
+color:#66ff00;
+}
+100%{
+color:green;
+}
